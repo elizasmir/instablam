@@ -1,0 +1,41 @@
+{
+    "name": "Instablam",
+    "short_name": "blam",
+    "start_url": "/",
+    "background_color": "#fef6e8",
+    "theme_color": "#660200",
+    "orientation": "any",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en-US",
+    "description": "Take a photo and then change it!",
+    "scope": "/",
+    "gcm_sender_id": "103953800507",
+    "icons": [
+        {
+            "src": "img/icons/print-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/print-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/print-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/print-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/print-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}
