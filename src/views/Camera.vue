@@ -1,5 +1,6 @@
 <template>
   <div class="camera">
+    <title>Camera</title>
     <div v-if="!isEditor" class="preview-camera">
       <section class="stream-video">
         <video autoplay class="stream"></video>
@@ -11,8 +12,8 @@
         </button>
       </section>
     </div>
-
-    <div v-else>
+  
+    <div v-else> 
       <Editor :photo="img"/>
     </div>
   </div>
@@ -23,9 +24,7 @@ import Editor from '@/components/Editor'
 
 export default {
   name: "Camera",
-  components: {
-    Editor
-  },
+  components: { Editor },
   data() {
     return { isEditor: false, img: null };
   },
@@ -91,7 +90,7 @@ export default {
   margin: 0 auto;
   box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 1);
 }
-img {
+.photo-btn img {
   width: 70%;
   height: 60%;
 }

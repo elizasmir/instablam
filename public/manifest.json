@@ -36,6 +36,11 @@
             "src": "img/icons/print-16x16.png",
             "sizes": "16x16",
             "type": "image/png"
+        },
+        {
+            "src": "src/assets/graphics/no-wifi.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ]
 }

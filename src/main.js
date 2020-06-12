@@ -2,13 +2,14 @@ import Vue from 'vue';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
-// import store from './store';
+
+import VueOffline from 'vue-offline'
 
 Vue.config.productionTip = false;
+Vue.use(VueOffline)
 
 new Vue({
   router,
-  // store,
   render: (h) => h(App),
 }).$mount('#app');
 Vue.prototype.Caman = window.Caman;
@@ -46,6 +47,3 @@ messaging.requestPermission().then(() => {
   console.log('Unable to get permission to notify.', err);
 });
 
-// messaging.onMessage((payload) => {
-//   console.log('Message received. ', payload);
-// });

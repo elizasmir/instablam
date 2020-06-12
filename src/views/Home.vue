@@ -1,13 +1,16 @@
 <template>
-  <div @click="openCamera" class="home">
-    <section class="content">
-      <img src="../../public/img/icons/print-512x512.png" />
-    </section>
-    <article class="description">
-      <h1>Welcome to <span>Instablam</span> </h1>
-      <p>You can take a photo and edit it after!</p>
-    </article>
-  </div>
+  <section>
+    <title>INSTABLAM</title>
+    <div @click="openCamera" class="home">
+      <section class="content">
+        <img src="../../public/img/icons/print-512x512.png" />
+      </section>
+      <article class="description">
+        <h1>Welcome to <span>Instablam</span> </h1>
+        <p>You can take a photo and edit it after!</p>
+      </article>
+    </div>
+  </section>
 </template>
 
 <script>
